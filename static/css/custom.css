@@ -1,0 +1,401 @@
+/*
+*@Authorization
+*/
+.authDiv{
+    height: 100%;
+    margin:0 auto;
+    text-align:center;
+}
+.authDiv img{
+    width: 96px;
+    height:96px;
+    margin:0 auto;
+    margin-top:95px;
+}
+.authDiv .authName{
+    font-size: 21px;
+    margin:30px 0;
+}
+.authDiv .line{
+    height: 1px;
+    background: #ddd;
+    margin:0 30px 32px 30px;
+}
+.authDiv .accreditFont{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.authDiv .acquireFont{
+    color: #aeaeae;
+    margin-bottom: 52px;
+}
+/**
+*Teacher-create
+*/
+.mainbBg{
+    height: calc(100% - 47px);
+    background: #f9f9f9;
+}
+.mainbBg .menuHeader{
+    height: 60px;
+    line-height: 60px;
+}
+.mainbBg .menuHeader .returnIcon{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.mainbBg .menuHeader .ids{
+    display: inherit;
+    float: right;
+    margin-right: 20px;
+}
+.mainbBg .menuHeader .icons{
+    color: #1abc9c;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.mainbBg > img{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+.mainbBg > span{
+    text-align: center;
+    display: block;
+}
+.mainbBg .names{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+.mainbBg .weiName{
+    margin-bottom: 50px;
+}
+.mainbBg .formDiv{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.mainbBg .btnDiv{
+    margin-bottom: 92px;
+    text-align: center;
+}
+.mainbBg .saveDiv{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formDiv i{
+    font-size: 24px;
+    color: #a7a7ac;
+    margin-top: 10px;
+}
+
+.formDiv > div{
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+}
+
+.formDiv > div > .weui-cell{
+    width: 100%;
+}
+
+.formDiv > div > .weui-cell:before{
+    border-top: 1px solid #f9f9f9;
+}
+
+/*@S_welcome*/
+.welcomeDiv{
+    margin-top: 2spx;
+    text-align: center;
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+.welcomeDiv .welcomTitle{
+    margin-bottom: 30px;
+}
+.welcomeDiv .welcomTitle i{
+    font-size: 300px;
+    color: #1abc9c;
+    display: block;
+}
+.welcomeDiv .welcomTitle span{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.welcomeDiv .welcomeBtnD .welcomeBtn{
+    display: inline-block;
+    margin: 0 15px;
+}
+.welcomeDiv .welcomeBtnD .welcomeBtn div{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.welcomeDiv .welcomeBtnD .welcomeBtn div i{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+}
+.fillBtn{
+    background: #3498db;
+}
+.searchBtn{
+    background: #2ecc71;
+}
+.collectBtn{
+    background: #ffa847;
+}
+.groupBtn{
+    background: #f04844;
+}
+
+/*Report2*/
+.plus{
+    color: #1abc9c;
+    /*font-size:100px;这句放在这里不起作用*/
+    margin-top:10px;
+    margin-left:46%;
+}
+
+/*@S_view*/
+.iconBox{
+    margin: 65px 0;
+}
+.iconBox .iconDiv{
+    background: #2ecc71;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    margin:  0 auto;
+    text-align: center;
+}
+
+.iconBox .iconDiv i{
+    font-size: 80px;
+    color: #fff;
+    margin-top: 30%;
+}
+
+.report2Btn{
+    padding: 0 60px;
+}
+
+.cellDiv{
+    margin: 15px 0;
+    padding: 0 15px;
+  }
+.cellDiv >i{
+    font-size: 35px;
+    color: #1abc9c;
+    float: right;
+    cursor: pointer;
+}
+.reportBtn{
+    padding: 4px 0;
+    width: 74px;
+}
+.msgContent{
+    padding: 0 15px;
+}
+.msgContent .msgBox{
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px 15px 0 15px;
+    height: 230px;
+    margin: 0 auto;
+}
+.msgContent .msgBox .timeDiv{
+    display: flex;
+    line-height: 40px;
+    height: 40px;
+}
+.msgContent .msgBox .timeDiv > span{
+    display: block;
+    width: 4em;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-left: 15px;
+    min-width: 56px;
+}
+.msgContent .msgBox .timeDiv .time{
+    display: flex;
+    margin: 0 auto;
+  }
+.msgContent .msgBox .timeDiv .time p{
+    width: 30px;
+}
+/*@S_view_single*/
+.singleContent{
+    margin-top: 35px;
+    padding: 0 15px;
+    height: calc(100% - 200px);
+}
+.singleContent .tab{
+    margin-bottom: 12px;
+}
+.singleContent .tab span{
+    padding: 11px 17px;
+    border: 1px solid #aeaeae;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+}
+.singleContent .content{
+    width: 100%;
+    border: 1px solid #aeaeae;
+    background: #fff;
+    height: calc(100% - 43px);
+}
+.singleActived{
+    color: #fff !important;
+    background: #1abc9c !important;
+}
+.sViewbtn{
+    margin-top: 25px;
+    border: none;
+    margin-right: 15px;
+}
+/*@S_group*/
+.groupDiv{
+    text-align: center;
+  }
+.groupDiv > input{
+    width: 100%;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    margin-bottom: 12px;
+}
+.groupDiv .groupD{
+    background: #fff;
+    height: 94px;
+    line-height: 47px;
+    /*display: flex;*/
+    text-align: left;
+    cursor:pointer;
+    border-bottom: 1px solid #bebebe;
+}
+.groupDiv .groupS{
+    background: #fff;
+    height: 47px;
+    line-height: 47px;
+    /*display: flex;*/
+    text-align: left;
+    cursor:pointer;
+}
+.groupDiv .groupS i{
+    color:#1abc9c;
+    font-size: 20px;
+}
+.groupDiv .groupD i{
+    color:#1abc9c;
+    font-size: 20px;
+}
+.groupDiv .groupDetail{
+    background: #fff;
+    height: 47px;
+    line-height: 47px;
+    /*display: flex;*/
+    text-align: left;
+    cursor:pointer;
+    border-bottom: 1px solid #bebebe;
+}
+.groupDiv .groupDetail i{
+    color: #1abc9c;
+    font-size: 18px;
+}
+/*S—group-setting*/
+.userList{
+    display:inline;
+    height:100%;
+}
+
+.userInf{
+    height:70px;
+    width:50px;
+    text-align: right;
+    display:inline;
+    float:left;
+    margin:13px;
+}
+.userInf img{
+    height:50px;
+    width:50px;
+    margin:13px;
+}
+
+.groupInf{
+    color: #ccc;
+    text-align: right;
+    margin-right: 15px;
+    float:right;
+}
+.exitGroup{
+    background: red;
+    color: white;
+    text-align: center;
+    width:50%;
+    height:20px ;
+    margin-top: 200px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+/*@S2017_S S2017_T S_view_all home-T home-S*/
+.groupDiv{
+    height: auto;
+    overflow: auto;
+}
+.groupDiv .chatDiv{
+    display: flex;
+    margin-bottom: 25px;
+}
+.groupDiv .chatDiv > img{
+    width: 46px;
+    height: 46px;
+    margin: 0 0 0 25px;
+}
+.groupDiv .chatDiv > div{
+    border: 1px solid #797979;
+    border-radius: 20px;
+    width: calc(100% - 46px);
+    margin: 0 20px;
+    padding: 10px;
+    text-align: left;
+    background: #fff;
+}
+.groupDiv .chatDiv .chatTime{
+    width: 100%;
+    text-align: right;
+    display:block;
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+/*T-view-single*/
+.times_small{
+    height: 38px;
+    line-height: 0px;
+}
+/*push*/
+.pushChoose{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+.saveButton{
+    margin-top: 200px;
+    margin-left: -10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 15px;
+}

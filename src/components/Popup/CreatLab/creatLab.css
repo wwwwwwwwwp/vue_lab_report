@@ -1,0 +1,38 @@
+.creatLab{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    display: flex;
+}
+.creatLab .creatLab_content{
+    width: 300px;
+    height: 300px;
+    background: #1abc9c;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+.creatLab .creatLab_content .creatLab_body .creatInf{
+    color:white;
+    font-size:15px;
+    font-weight:800;
+    padding-left:20px;
+    margin-top:60px;
+}
+
+.creatLab .creatLab_content .creatLab_body .createSuccess{
+    position:absolute;
+    right:10%;
+    bottom:20%;
+    font-size:20px;
+    font-weight:800;
+    color:white;
+}
+
+.creatLab .creatLab_content .creatLab_body .createSuccess i{
+    color:white;
+    font-size: 45px;
+}

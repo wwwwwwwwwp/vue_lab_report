@@ -1,0 +1,55 @@
+
+/*背景板*/
+.deleteUser{
+    width:100%;
+    height: 100%;
+    margin-top: 50px;
+    background: rgb(255,255,255,0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    display: flex;
+}
+/*内容层，有z-index的话，需要比遮罩层大，否则会被遮盖*/
+.deleteUser .deleteUser_content{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255,0.8);
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+}
+.deleteUser .deleteUser_title{
+    padding: 5px;
+    text-align:center;
+    margin-top: 30%;
+}
+.deleteUser .deleteUser_title .deleteUser_alter{
+    height: 25px;
+    width: 130px;
+    border: 2px #1abc9c solid;
+    text-align:center;
+    border-radius: 50px;
+    padding-bottom: 15px;
+    margin-left:35%;
+    margin-bottom:20px;
+}
+
+.deleteUser .deleteUser_btn{
+    display: inline;
+    position: absolute;
+    left: 15%;
+    bottom: 25%;
+}
+.deleteUser .deleteUser_btn button{
+    width: 120px;
+    height: 25px;
+    border: none;
+    color: white;
+    background: #1abc9c;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 15px;
+}
